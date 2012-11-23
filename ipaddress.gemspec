@@ -16,10 +16,7 @@ Gem::Specification.new do |s|
       addressing many of its issues.
 }
   s.email = %q{ceresa@gmail.com}
-  s.extra_rdoc_files = [
-    "LICENSE",
-    "README.rdoc"
-  ]
+  s.extra_rdoc_files = %w(LICENSE README.rdoc)
   s.files = [
     ".document",
     "CHANGELOG.rdoc",
@@ -42,7 +39,7 @@ Gem::Specification.new do |s|
   ]
   s.homepage = %q{http://github.com/bluemonk/ipaddress}
   s.license = 'MIT'
-  s.require_paths = ["lib"]
+  s.require_paths = %w(lib)
   s.rubygems_version = %q{1.6.2}
   s.summary = %q{IPv4/IPv6 addresses manipulation library}
 
